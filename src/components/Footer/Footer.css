@@ -1,0 +1,92 @@
+.Footer{
+  background-color:#ebf1fa;
+  padding: 2rem 0;
+}
+span{
+  color: lightseagreen;
+}
+.ft-1{
+  padding-top: 0.5rem;
+}
+
+.footer-logo{
+  font-weight: 700;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 0;
+  letter-spacing: 2px;
+}
+
+.footer-icons i{
+  padding:0.4rem 0.5rem;
+  background-color: lightseagreen;
+  color:white;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  margin-bottom: .5rem;
+}
+.footer-icons i:hover{
+  background-color:black;
+  color: lightseagreen;
+  transition: .4s all ease-in-out;
+}
+
+.ft-1 p{
+  padding: 0.5rem 5rem 0.8rem 0;
+  font-weight: 500;
+}
+
+.Footer h3{
+  color: lightseagreen;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.Footer ul{
+  list-style: none;  
+  padding-left: 0;
+}
+.ft-2 ul li{
+  padding: 0.5rem 0;
+  font-weight: 500;
+}
+
+.ft-2 ul .links{
+  text-decoration: none;
+  padding: 1rem 0;
+  color: black;
+
+}
+
+.ft-3 p{
+  font-weight: 500;
+  padding: 0.1rem 0;
+  font-size: 1.06rem;
+}
+.ft-3 i{
+  padding-right: 0.5rem;
+}
+.last-Footer{
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.last-Footer p{
+  margin-bottom: 0;
+  font-size:1.2rem ;
+  font-weight: 500;
+}
+
+@media  screen and (max-width:600px) {
+  .Footer{
+    text-align: center;
+  }
+  .Footer p{
+    padding: 0;
+  }
+  
+}

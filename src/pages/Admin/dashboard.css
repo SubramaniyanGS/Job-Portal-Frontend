@@ -1,0 +1,194 @@
+.welcome-card {
+    background-color:#00b199;
+    color:white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.dash{
+    color: #00b199;
+}
+.greenbtn{
+    background-color: #00b199;
+    border: none;
+    color: white;
+}
+.greenbtn:hover{
+    background-color: #024b41;
+    color: white;
+}
+.logoutbtn{
+    background-color: whitesmoke;
+    color:#00b199;
+}
+.logoutbtn:hover{
+    background-color:#024b41 ;
+    color: white;
+}
+.dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dashboard-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-count {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+
+.form_container {
+    width: 30%;
+}
+
+.sig {
+    color: lightseagreen;
+}
+
+.select {
+    height: 58px;
+}
+
+.login-btn {
+    background-color: lightseagreen;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: rgb(1, 127, 121);
+    color: white;
+    transition: all .2s ease-out;
+}
+
+.form-control {
+    border: none;
+    background-color: #DAF5FE;
+}
+
+/* Specific styles for the admin signup page */
+
+.usersignup {
+    background-image: url("../../../public/image (1).png");
+    background-size: cover;
+    /* Ensures the image covers the entire container */
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 10000px) {
+    .form_container {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .form_container {
+        width: 65%;
+    }
+}
+
+.divider {
+    margin: 20px 0;
+    border-top: 1px solid #ccc;
+}
+
+
+/* Add any additional styles as needed */
+
+.form_container {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+}
+
+.sig {
+    color: lightseagreen;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-btn {
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: rgb(1, 127, 121);
+}
+
+.form-control {
+    border: none;
+    background-color: #DAF5FE;
+}
+
+@media screen and (max-width: 768px) {
+    .form_container {
+        width: 80%;
+    }
+
+}
+
+/* .dashboard-container {
+    display: flex;
+    flex-direction: row;
+} */
+
+.left-side {
+    flex: 1;
+    margin-right: 20px;
+    /* Adjust margin as needed */
+}
+
+.right-side {
+    flex: 1;
+    margin-left: 20px;
+    /* Adjust margin as needed */
+}

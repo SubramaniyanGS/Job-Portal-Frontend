@@ -1,0 +1,37 @@
+.form_container{
+    width: 30%;
+}
+.admin{
+    color: lightseagreen;
+}
+.adminlogin{
+    background-image: url("../../../../public/admin.png");
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login-btn{
+    background-color: rgb(2, 208, 122);
+    color: white;
+}
+.login-btn:hover{
+    background-color:rgb(2, 124, 73) ;
+    color: white;
+    transition: all .2s ease-out;
+}
+
+@media screen and (max-width:10000px){
+    .form_container{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .form_container{
+        width: 65%;
+    }
+}

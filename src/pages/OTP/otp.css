@@ -1,0 +1,41 @@
+.form_container {
+    width: 30%;
+}
+
+.log {
+    color: lightseagreen;
+}
+
+.userlogin {
+    background-image: url("../../../public/image (1).png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login-btn {
+    background-color: lightseagreen;
+    color: white;
+}
+
+.login-btn:hover {
+    background-color: rgb(5, 128, 121);
+    color: white;
+    transition: all .2s ease-out;
+}
+
+@media screen and (max-width:10000px) {
+    .form_container {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .form_container {
+        width: 65%;
+    }
+}

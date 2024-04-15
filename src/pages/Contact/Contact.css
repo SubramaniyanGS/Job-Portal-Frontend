@@ -1,0 +1,21 @@
+.contact{
+    background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+.send-btn{
+    background-color: lightseagreen;
+    color: white;
+}
+.send-btn:hover{
+    background-color: rgb(0, 112, 106);
+    color: black;
+}
+.contact-card{
+    background-color: lightseagreen;
+    color: white;
+}
+.text{
+    color: white;
+}
+.contact-icon{
+    color: lightseagreen;
+}

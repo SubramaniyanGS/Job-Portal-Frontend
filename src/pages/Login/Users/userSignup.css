@@ -1,0 +1,43 @@
+.form_container{
+    width: 30%;
+}
+.sig{
+    color: lightseagreen;
+}
+.select{
+    height: 58px;
+}
+.usersignup{
+    background-image: url("../../../../public/image (1).png");
+    background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-btn{
+    background-color: lightseagreen;
+    color: white;
+}
+.login-btn:hover{
+    background-color: rgb(1, 127, 121) ;
+    color: white;
+    transition: all .2s ease-out;
+}
+.form-control{
+    border: none;
+    background-color: #DAF5FE;
+}
+
+@media screen and (max-width:10000px){
+    .form_container{
+        width:30%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .form_container{
+        width: 65%;
+    }
+}

@@ -1,0 +1,173 @@
+.home{
+  background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+  height: 100%;
+}
+.banner{
+  display: flex;
+  justify-content: space-around;
+}
+.image{
+  height: 420px;
+  width: auto;
+  margin-right: 400px;
+}
+.content{
+  font-size: 1.8rem;
+  padding-top: 50px;
+}
+.title-div{
+  padding-left: 100px;
+}
+.title{
+  font-size: 4.5rem;
+  padding-top: 50px;
+}
+.green{
+  color: lightseagreen;
+}
+
+.content2{
+  font-size: 1.4rem;
+}
+.banner-form {
+  position: relative;
+  height: 126px;
+  margin-top: 50px;
+}
+.sm-gutters {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.banner-form .form-group {
+  position: relative;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.banner-form .form-group button {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  outline: none;
+  background:lightseagreen;
+  color: #fff;
+  border-radius: 0px 30px 30px 0px;
+  height: 47px;
+  width: 90px;
+  text-align: center;
+  border: none;
+}
+.banner-form .form-group .form-control {
+  padding: 12px 50px 12px 20px;
+  height: auto;
+  border: 7px solid rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+
+.cat-item {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  border: 1px solid transparent;
+  transition: .5s;
+  align-items: center;
+  background-color: white;
+}
+
+.cat-item:hover {
+  border-color: rgba(0, 0, 0, .08);
+  box-shadow: none;
+}
+.fadeInUp a{
+  text-decoration: none;
+}
+
+.fadeInUp a h6{
+  color: black;
+}
+
+.fadeInUp a p{
+  color: lightseagreen;
+}
+
+.fadeInUp a i{
+  color: lightseagreen;
+}
+
+.about-bg {
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: -moz-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: -ms-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: -o-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+  background-image: repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+  background-size: 5px 5px;
+}
+
+.btnn{
+  background-color: lightseagreen;
+  color: white;
+}
+.btnn:hover{
+  background-color: rgb(59, 251, 241);
+  color: black;
+}
+
+
+@media screen and (max-width:1000px){
+  .title{
+    font-size: 3rem;
+  }
+  p{
+    font-size: 1.3rem;
+  }
+  .image{
+    height: 350px;
+    width: auto;
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .search-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+  }
+  .search-btn{
+    display: grid;
+  }
+}
+
+
+@media screen and (max-width:800px){
+  .home{
+    min-height: 600px;
+  }
+  .banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .image{
+   display: none;
+  }
+  .title{
+    padding-top: 25px;
+    font-size: 3.4rem;
+    padding-left: 0;
+  }
+  .content{
+    padding-top: 15px;
+    font-size: 1.2rem;
+    padding-left: 0;
+  }
+  .title-div{
+    padding-left: 20px;
+  }
+  .content2{
+    font-size: 1.2rem;
+  }
+
+}

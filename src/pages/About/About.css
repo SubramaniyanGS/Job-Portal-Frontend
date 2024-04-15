@@ -1,0 +1,13 @@
+.about-banner{
+    background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+.about-img{
+    height:300px;
+    width: auto;
+}
+.about{
+    color: lightseagreen;
+}
+.ab{
+    color: black;
+}
