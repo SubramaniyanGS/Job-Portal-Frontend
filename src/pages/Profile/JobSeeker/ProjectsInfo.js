@@ -77,17 +77,7 @@ export const ProjectsInfo= () => {
                 throw new Error('Failed to update user');
             }
     
-            // Update the projects state with the updated details
-            const updatedProjects = projects.map(project => {
-                if (project._id === projectId) {
-                    // Merge the existing project data with the updated form data
-                    return { ...project, ...formData };
-                } else {
-                    return project;
-                }
-            });
-    
-            setProjects(updatedProjects);
+            setProjects([...projects, formData]);
             handleClose();
         } catch (error) {
             console.error('Error updating user:', error);
