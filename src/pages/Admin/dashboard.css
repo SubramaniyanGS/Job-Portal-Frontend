@@ -1,27 +1,28 @@
 .welcome-card {
-    background-color:#00b199;
-    color:white;
+    background-color: #D7FFFE;
+    color: white;
     padding: 20px;
     margin-bottom: 20px;
 }
-.dash{
-    color: #00b199;
+
+.welcome-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
 }
-.greenbtn{
-    background-color: #00b199;
-    border: none;
-    color: white;
-}
-.greenbtn:hover{
-    background-color: #024b41;
-    color: white;
-}
+
 .logoutbtn{
     background-color: whitesmoke;
     color:#00b199;
 }
 .logoutbtn:hover{
     background-color:#024b41 ;
+    color: white;
+}
+
+.otherbtn{
+    background-color: #00b199;
+    border: none;
     color: white;
 }
 .dashboard-cards {
@@ -191,4 +192,57 @@
     flex: 1;
     margin-left: 20px;
     /* Adjust margin as needed */
+}
+
+/* Add this CSS to your existing stylesheet or create a new one */
+
+/* Style for the container */
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for the table */
+table {
+    width: 80%;
+    /* Adjust the width as needed */
+    max-width: 600px;
+    /* Set a maximum width if desired */
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+/* Style for table header */
+thead th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: left;
+}
+
+/* Style for table body */
+tbody td {
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+
+/* Style for table row */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for action buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 4cm;
+}
+
+button:hover {
+    background-color: #45a049;
 }
